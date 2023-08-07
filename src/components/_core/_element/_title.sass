@@ -8,22 +8,32 @@
 		font-size: 36px
 
 .heading-2
-	+fz-lh(40px, 48px)
-	+mq-max(lg)
-		font-size: r(36px)
+	// +fz-lh(40px, 48px)
+	// +mq-max(lg)
+	// 	font-size: r(36px)
+	font-size: 40px
+	line-height: 48px
 .heading-3
-	+fz-lh(36px, 44px)
-	+mq-max(lg)
-		font-size: r(32px)
+	// +fz-lh(36px, 44px)
+	// +mq-max(lg)
+	// 	font-size: r(32px)
+	font-size: 36px
+	line-height: 44px
 .heading-4
-	+fz-lh(32px, 40px)
-	+mq-max(lg)
-		font-size: r(28px)
+	// +fz-lh(32px, 40px)
+	// +mq-max(lg)
+	// 	font-size: r(28px)
+	font-size: 32px
+	line-height: 40px
 .heading-5
-	+fz-lh(24px, 32px)
+	// +fz-lh(24px, 32px)
+	font-size: 24px
+	line-height: 32px
 
 .body-1
-	+fz-lh(20px, 28px)
+	// +fz-lh(20px, 28px)
+	font-size: 24px
+	line-height: 32px
 .body-2
 	+fz-lh(18px, 24px)
 .body-3
@@ -48,3 +58,35 @@
 	font-weight: 700
 	@media(max-width: 1023.89px)
 		font-size: 24px
+
+.text-5-regular
+	color: var(--neutral-400, #777)
+
+	/* Body Unbounded/Text 5 Regular */
+	font-family: Unbounded
+	font-size: 12px
+	font-weight: 400
+	line-height: 16px 
+	@media(max-width: 1023.89px)
+		font-size: 8px
+.Text-2-Regular
+	color: var(--gray-333, #333)
+
+	/* Body Unbounded/Text 2 Regular */
+	font-family: Unbounded
+	font-size: 16px
+	font-weight: bold
+	line-height: 24px /* 150% */
+	@media(max-width: 1023.89px)
+		font-size: 8px
+
+.Text-Regular-4
+	color: var(--neutral-900, #090909)
+
+	/* Body Unbounded/Text 4 Regular */
+	font-family: Unbounded
+	font-size: 14px
+	font-weight: 400
+	line-height: 20px
+	@media(max-width: 1023.89px)
+		font-size: 10px
